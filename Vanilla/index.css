@@ -20,11 +20,15 @@
 }
 /*  */
 /* Zoning */
+#myTabContent {
+    width:100%;
+    height:100%;
+}
 .content-align-center {
     align-content: center;
     align-items: center;
     align-self: center;
-    justify-content; center;
+    justify-content: center;
     text-align: center;
 }
 .cardContainer {
