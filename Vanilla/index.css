@@ -4,19 +4,35 @@
     border-color: #7289da !important;
     color: ghostwhite !important;
 }
+.card-subtitle {
+    color: #BEBEBE;
+}
 /*           */
 /* Sizing */
 .logo {
-    height: 22px;
+    height: calc(3px + 1vw + 1vh);
 }
-.angularTab {
-    height: 24.5px;
+.icon {
+    height: calc(100% + 1vw + 1vh);
+    width: calc(100% + 1vw + 1vh);
 }
-.reactTab {
-    height: 24px;
+.img-icon {
+
+    min-height: 30px;
+    height: calc(25px + 1vw + 1vh);
+    width: calc(25px + 1vw + 1vh);
+    max-width: 45px;
+    max-height: 45px;
 }
-.ionicTab {
-    height: 25.5px;
+.buttonBox {
+    justify-content: space-between;
+    align-items: stretch;
+}
+.applicationCard {
+    width: calc(75% + 1vw + 1vh);
+    height: calc(40% + 1vw + 1vh);
+    min-height: 24rem;
+    max-height: 100rem;
 }
 /*  */
 /* Zoning */
@@ -36,14 +52,19 @@
 }
 .supercontainer {
     height: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
 .superwide {
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 .superhigh {
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 body {
     height: 100%;
@@ -53,3 +74,13 @@ html {
     height: 100%;
     width: 100%;
 }
+/*  */
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+}
+/* ANIMATIONS */
+.showBtns { animation: showBtns 0.9s; }
+@keyframes showBtns {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
